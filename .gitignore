@@ -1,0 +1,77 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.so
+*.elf
+*.hex
+*.bin
+*.asm
+
+# Compiler/toolchain
+*.out
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencies
+/node_modules/
+vendor/
+.cargo/
+
+# FPGA/Vivado
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.rptx
+*.wcfg
+vivado*.log
+vivado*.jou
+webtalk.log
+webtalk.jou
+
+# Quartus
+db/
+incremental_db/
+output_files/
+*.rpt
+*.htm
+*.sopcinfo
+*.qws
+*.qsf
+*.bak
+
+# Yosys/open-source FPGA
+*.json
+*.fasm
+*.eblif
+*.pb
+work/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.pytest_cache/
+
+# Simulation
+*.vvp
+*.vcd
+sim_build/
